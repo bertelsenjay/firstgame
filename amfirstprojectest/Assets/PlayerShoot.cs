@@ -12,7 +12,7 @@ public class PlayerShoot : MonoBehaviour
     public float shootDelay = 0;
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         if (Time.timeScale == 1)
         {
@@ -29,7 +29,6 @@ public class PlayerShoot : MonoBehaviour
                     shootDir.Normalize();
                     bulletSpawn.GetComponent<Rigidbody2D>().velocity = shootDir * bulletSpeed;
                     Destroy(bulletSpawn, bulletLifetime);
-                    Camera.main.GetComponent<AudioSource>().PlayOneShot(shootSound);
                     timer = 0;
                 }
 
