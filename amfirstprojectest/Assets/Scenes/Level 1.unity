@@ -316,6 +316,26 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 49812987811151977, guid: 78d7a75ea5458c94cb2e522562112b36, type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 733879887}
+    - target: {fileID: 49812987811151977, guid: 78d7a75ea5458c94cb2e522562112b36, type: 3}
+      propertyPath: m_RenderMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 49812987811151977, guid: 78d7a75ea5458c94cb2e522562112b36, type: 3}
+      propertyPath: m_SortingOrder
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 49812987811151978, guid: 78d7a75ea5458c94cb2e522562112b36, type: 3}
+      propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 49812987811151978, guid: 78d7a75ea5458c94cb2e522562112b36, type: 3}
+      propertyPath: m_ScreenMatchMode
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 49812987811151980, guid: 78d7a75ea5458c94cb2e522562112b36, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -403,6 +423,14 @@ PrefabInstance:
     - target: {fileID: 49812987811151981, guid: 78d7a75ea5458c94cb2e522562112b36, type: 3}
       propertyPath: m_Name
       value: UI
+      objectReference: {fileID: 0}
+    - target: {fileID: 49812989598484139, guid: 78d7a75ea5458c94cb2e522562112b36, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -423.72
+      objectReference: {fileID: 0}
+    - target: {fileID: 49812989598484139, guid: 78d7a75ea5458c94cb2e522562112b36, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 252.1155
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects:
@@ -507,7 +535,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 565834868654547916, guid: 2e0e9415027e78a46816d23b80d60b73, type: 3}
       propertyPath: orthographic size
-      value: 3.35
+      value: 3.7
       objectReference: {fileID: 0}
     - target: {fileID: 565834868654547919, guid: 2e0e9415027e78a46816d23b80d60b73, type: 3}
       propertyPath: m_LocalScale.x
@@ -580,6 +608,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 2e0e9415027e78a46816d23b80d60b73, type: 3}
+--- !u!20 &733879887 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 565834868654547916, guid: 2e0e9415027e78a46816d23b80d60b73, type: 3}
+  m_PrefabInstance: {fileID: 703912426}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &750764643
 GameObject:
   m_ObjectHideFlags: 0
@@ -44157,7 +44190,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 333.28894, y: 252.1155}
+  m_AnchoredPosition: {x: 384.5, y: 252.1155}
   m_SizeDelta: {x: 307.4222, y: 43.369}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2023317691
